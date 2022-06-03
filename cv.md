@@ -7,3 +7,4 @@
 6. I don't have any work experience yet.
 7. Higher specialized education.
 8. Intermediate – В1.
+9. Newnew!
