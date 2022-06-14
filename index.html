@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV#3. CV. Cross-Check</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://rollingscopes.com/images/logo_rs2.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="write">
+          <div class="Photo">
+            <img
+              src="https://sun9-67.userapi.com/s/v1/ig2/qUwrWq7P35bWcj3VaMcubt7wWBk_r-Xzvy1wFwq3Qgzai5tZn4U8VSQnL73LwOqKwUMpyh6MiYNKr6YNauvpmJgA.jpg?size=732x742&quality=95&type=album"
+              alt="Photo"
+            />
+          </div>
+          <div class="name">
+            <h1>Anna Safonova</h1>
+          </div>
+          <nav class="context">
+            <ol>
+              <li><a href="https://www.google.ru/">Email</a></li>
+              <li><a href="https://t.me/joja">Telegram</a></li>
+              <li><a href="https://github.com/dracainna">GitHub</a></li>
+            </ol>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="about_me">
+          <h2>About me</h2>
+          <p>
+            I am an enthusiastic, self-motivated, reliable, responsible and hard
+            working person. I am a mature team worker and adaptable to all
+            challenging situations. I am able to work well both in a team
+            environment as well as using own initiative. I am able to work well
+            under pressure and adhere to strict deadlines.
+          </p>
+        </div>
+        <hr />
+        <div class="skills">
+          <h2>My skills</h2>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>
+              Veterinaty Scince
+              <ol>
+                <li>Pharmacy</li>
+                <li>Physiology</li>
+              </ol>
+            </li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <hr />
+        <div class="examples">
+          <h2>Code examples</h2>
+          <details>
+            <summary>Press the button!</summary>
+            <pre>
+            <code data-language = "javascript">
+                const   hamburger = document.querySelector('.hamburger'),
+                menu = document.querySelector('.menu'),
+                closeElem = document.querySelector('.menuclose');
+
+                hamburger.addEventListener('click', () => {
+                    menu.classList.add('active')
+                });
+
+                closeElem.addEventListener('click', () => {
+                    menu.classList.remove('active')
+                });
+
+                const counters = document.querySelectorAll('.skillsratings-counter'),
+                        lines = document.querySelectorAll('.skills__ratings-line span');
+
+                counters.forEach( (item, i) => {
+                    lines[i].style.width = item.innerHTML;
+                });
+            </code>
+            </pre>
+            <p>
+              <a
+                href="https://github.com/dracainna/rsschool-cv/tree/rsschool-cv-html"
+                >My project for RSSchool!</a
+              >
+            </p>
+          </details>
+        </div>
+        <hr />
+        <div class="Education">
+          <h2>Education</h2>
+          <ul>
+            <li>Read couple book on Medicine and Pharmacy</li>
+            <li>Kuban State University - Faculty of Journalism</li>
+          </ul>
+        </div>
+        <hr />
+        <div class="english">
+          <h2>English level</h2>
+          <p>A2/B1 - Pre-Intermediate</p>
+        </div>
+      </main>
+      <hr />
+      <div class="footer">
+        <footer>
+          <p>
+            <a href="https://rs.school/js/"
+              ><img
+                src="https://rs.school/images/rs_school_js.svg"
+                alt="RSSLogo"
+            /></a>
+          </p>
+          <a href="https://github.com/dracainna">GitHub</a>
+          <p>2022</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
